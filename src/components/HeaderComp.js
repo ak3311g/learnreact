@@ -21,7 +21,7 @@ export default function HeaderComp() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                             <li><button className="dropdown-item" type="button">More Topics</button></li>
-                            <li><button className="dropdown-item" type="button">Another action</button></li>
+                            <li><button className="dropdown-item" type="button">Did i Miss ?</button></li>
                             <li><button className="dropdown-item" type="button">Something else here</button></li>
                         </ul>
                     </div>
