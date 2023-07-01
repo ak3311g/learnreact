@@ -13,8 +13,13 @@ export default function HeaderComp() {
                         Learn React JS 
                         <p className="clicktitle">Click to go to homepage</p>
                     </h1>
+                
                 </Link>
-                <div className="nav-bar">
+                <div className="mx-3">
+                More features<br/>
+                Coming Soon
+                </div>
+                {/* <div className="nav-bar">
                     <div className="btn-group">
                         <button type="button" className="dropdowntoggle p-3 m-2" data-bs-toggle="dropdown" aria-expanded="false">
                             More Items
@@ -25,7 +30,7 @@ export default function HeaderComp() {
                             <li><button className="dropdown-item" type="button">Something else here</button></li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

@@ -12,6 +12,7 @@ import Lifecycle from "./components/reacttopics/Lifecycle";
 import Hooks from "./components/reacttopics/hooks";
 import Events from "./components/reacttopics/events";
 import Router from "./components/reacttopics/Router";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -34,6 +35,8 @@ function App() {
             <Route path="/Events" element={<Events/>} />
             <Route path="/Router" element={<Router/>} />
           </Routes>
+          <hr/>
+          <Footer/>
         </div>
       </BrowserRouter>
     </>
