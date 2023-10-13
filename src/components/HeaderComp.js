@@ -16,8 +16,12 @@ export default function HeaderComp() {
                 
                 </Link>
                 <div className="mx-3">
-                More features<br/>
-                Coming Soon
+                <Link className="header text-white p-3 m-2 rounded" to="/questions">
+                    <h1 className="title flex-column">
+                        Questions
+                        <p className="clicktitle">Click to go to Questions</p>
+                    </h1>
+                </Link>
                 </div>
                 {/* <div className="nav-bar">
                     <div className="btn-group">

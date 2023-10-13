@@ -1,0 +1,156 @@
+{
+    "question":[
+        {
+            "qn":"What is React",
+            "ans":"React is a front end javascript library developed by Facebook in 2011. It follows the component based approach which helps in building reusable UI components. It is used for developing complex and interactive web and mobile UI. Even though it was open-sourced only in 2015, it has one of the largest communities supporting it."
+        },
+        {
+            "qn":"What is a library",
+            "ans":"A library is a collection of functions which can be used by other programs. ReactJS is JavaScript library used for building reusable UI components. According to Wikipedia, React is an open-source JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations."
+        },
+        {
+            "qn": "What is a single page application",
+            "ans": "Single page application is a web application that loads a single HTML page and all the necessary assets (such as JavaScript and CSS) required for the application to run. Any interactions with the page or subsequent pages do not require a round trip to the server which means the page is not reloaded."
+        },
+        {
+            "qn":"What is a component",
+            "ans":"Components are the building blocks of any React application, and a single app usually consists of multiple components. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately."
+        },
+        {
+            "qn":"What is DOM",
+            "ans":"The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated."
+        },
+        {
+            "qn":"What is Virtual DOM",
+            "ans":"The virtual DOM (VDOM) is an in-memory representation of Real DOM. The representation of a UI is kept in memory and synced with the “real” DOM. It’s a step that happens between the render function being called and the displaying of elements on the screen. This entire process is called reconciliation."
+        },
+        {
+            "qn":"What is JSX",
+            "ans":"JSX is a syntax extension to JavaScript and comes with the full power of JavaScript. JSX produces React “elements”. You can embed any JavaScript expression in JSX by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects."
+        },
+        {
+            "qn":"What is babel",
+            "ans":"Babel is a JavaScript compiler that can translate markup languages into JavaScript. It enables the use of the latest JavaScript features before browsers support them natively."
+        },
+        {
+            "qn":"What is a transpiler",
+            "ans":"A transpiler is a tool that reads source code written in one programming language, and produces the equivalent code in another language. Babel is a transpiler for JavaScript."
+        },
+        {
+            "qn":"What is a module",
+            "ans":"Modules are the small units of independent, reusable code and typically they have a single responsibility. They are the foundation of many JavaScript design patterns and are critically necessary when building any non-trivial JavaScript-based application."
+        },
+        {
+            "qn":"What is a package",
+            "ans":"A package is a file or directory that is described by a package.json file. A package must contain a package.json file in order to be published to the npm registry. If a package.json file is absent, it is not considered a package."
+        },
+        {
+            "qn":"Difference between package and module",
+            "ans":"A module is a single JavaScript file that has some reasonable functionality. A package is a directory with one or more modules inside of it and a package.json file which has metadata about the package."
+        },
+        {
+            "qn":"What is NPM",
+            "ans":"NPM is a package manager for Node.js packages, or modules. It is used to install, share, and distribute code and manage dependencies in projects."
+        },
+        {
+            "qn":"Whats is Webpack",
+            "ans":"Webpack is a module bundler. Webpack can take care of bundling alongside a separate task runner. However, the line between bundler and task runner has become blurred thanks to community developed modules."
+        },
+        {
+            "qn":"Difference between a regular function and arrow function",
+            "ans":"Arrow functions are more of brief syntax for writing the function expression. They are also called ‘fat arrow‘ (=>) the functions. The arrow function expression is a syntactically compact alternative to a regular function expression, although without its own bindings to the this, arguments, super, or new.target keywords."
+        },
+        {
+            "qn":"What is a functional component",
+            "ans":"Functional components are basic JavaScript functions. These are typically arrow functions but can also be created with the regular function keyword. They take in an optional input which is called props and returns a React element. They are also referred to as Stateless components."
+        },
+        {
+            "qn":"Can we make a button or input field component?",
+            "ans":"Yes, we can make a button or input field component. This is done by using the concept of props. Props are a way of passing data from parent to child. If we want to pass a button label to a Button component, we can do it by using props."
+        },
+        {
+            "qn":"What is props in React",
+            "ans":"Props are inputs to components. They are single values or objects containing a set of values that are passed to components on creation using a naming convention similar to HTML-tag attributes. They are data passed down from a parent component to a child component."
+        },
+        {
+            "qn":"How do you access props in a React component ?",
+            "ans":"Props are passed to components via HTML attributes. React provides a props object which contains the passed properties and their values."
+        },
+        {
+            "qn":"What data types can we pass as props to components ?",
+            "ans":"We can pass string, boolean, numbers, arrays and objects as props. Props can also be a React element, a function, or another component."
+        },
+        {
+            "qn":"What is a propType ?",
+            "ans":"PropTypes is a property used to define type of data a component can receive. It is used for validation. For example, if a component expects a prop to be a string, you can set the propType to string. If the prop passed is not a string, you will get a warning in the console."
+        },
+        {
+            "qn":"What is default propType ?",
+            "ans":"Default props are used to ensure that props are passed to a component, even if they aren’t specified by the parent component. This is done by assigning default values to propTypes."
+        },
+        {
+            "qn":"Why you need to map an array ?",
+            "ans":"The map() method is used for mapping each item in an array to a new item. It takes in a callback function which is called for every item in the array. This callback function returns the new value for each item and creates a new array with the same number of items."
+        },
+        {
+            "qn":"Why we need keys during mapping an array ?",
+            "ans":"Keys are used for identifying unique Virtual DOM Elements with their corresponding data driving the UI. They help React optimize the rendering by recycling all the existing elements in the DOM. Keys should be given to the elements inside the array to give the elements a stable identity."
+        },
+        {
+            "qn":"What is the importance of destructuring your code ?",
+            "ans":"Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. It is a useful way of extracting multiple values from data stored in objects and arrays."
+        },
+        {
+            "qn":"Does destructuring make your code clean and easy to read ?",
+            "ans":"Yes, destructuring makes your code clean and easy to read. It saves you from creating temporary references for those properties."
+        },
+        {
+            "qn":"How do you write a pure JavaScript function",
+            "ans":"A pure function is a function that always returns the same result for the same inputs. It also doesn’t have any side-effects. It means it doesn’t change anything in the application. It doesn’t change the database and it doesn’t change the state of any component."
+        },
+        {
+            "qn":"What is inheritance and how do you make a child from a parent class?",
+            "ans":"Inheritance is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs(Object Oriented programming system). The idea behind inheritance in Java is that you can create new classes that are built upon existing classes."
+        },
+        {
+            "qn":"What is class based React component ?",
+            "ans":"Class components are ES6 classes and Functional Components are functions. The only constraint for a functional component is to accept props as an argument and return valid JSX. Class components should always call the base constructor with props."
+        },
+        {
+            "qn":"What is the difference between functional React component and class based React component ?",
+            "ans":"Functional components are basic JavaScript functions. These are typically arrow functions but can also be created with the regular function keyword. They take in an optional input which is called props and returns a React element. They are also referred to as Stateless components."
+        },
+        {
+            "qn":"When do we need to use class based components instead of functional components",
+            "ans":"If we need to use state or lifecycle methods in our components, we need to use class based components. Otherwise, we can stick to functional components."
+        },
+        {
+            "qn":"What is the use cases of class based component ?",
+            "ans":"If we need to use state or lifecycle methods in our components, we need to use class based components. Otherwise, we can stick to functional components."
+        },
+        {
+            "qn":"What is React life cycle ?",
+            "ans":"Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting."
+        },
+        {
+            "qn":"What is state in React ?",
+            "ans":"State is a JavaScript object that stores a component’s dynamic data and determines the component’s behavior. Because state is dynamic, it enables a component to keep track of changing information in between renders and for it to be dynamic and interactive."
+        },
+        {
+            "qn":"What is the difference between props and state in React ?",
+            "ans":"Props are used to pass data and event handlers down to components. State is used to hold data that influences how the component renders and behaves."
+        },
+        {
+            "qn":"How do you access state in a React component ?",
+            "ans":"State is accessible within a component via this.state."
+        },
+        {
+            "qn":"What is conditional rendering?",
+            "ans":"Conditional rendering is a term to describe the ability to render different user interface (UI) markup if a condition is true or false. In React, conditional rendering is done using JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them."
+        },
+        {
+            "qn":"How do you implement conditional rendering?",
+            "ans":"Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them."
+        }
+    ]
+}

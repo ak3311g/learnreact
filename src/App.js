@@ -13,6 +13,7 @@ import Hooks from "./components/reacttopics/hooks";
 import Events from "./components/reacttopics/events";
 import Router from "./components/reacttopics/Router";
 import Footer from "./components/Footer";
+import Questions from "./components/questions";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
             <Route path="/Hooks" element={<Hooks/>} />
             <Route path="/Events" element={<Events/>} />
             <Route path="/Router" element={<Router/>} />
+            <Route path="/questions" element={<Questions />} />
           </Routes>
           <hr/>
           <Footer/>
