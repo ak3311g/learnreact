@@ -151,6 +151,34 @@
         {
             "qn":"How do you implement conditional rendering?",
             "ans":"Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them."
+        },
+        {
+            "qn":"What is the importance of React Folder Structure and File Naming",
+            "ans":"The folder structure of a React project is similar to an Angular project. It is a good practice to keep the components, styles, images, and pages in separate folders. It is also a good practice to name the files in a consistent way. For example, if a component is named as Button, the corresponding style file should be named as Button.css."
+        },
+        {
+            "qn":"How do you export and import files in React ?",
+            "ans":"In React, each file is treated as a module and it has its own component. You can export a component using the export keyword and import it in other files using the import keyword."
+        },
+        {
+            "qn":"What is an event",
+            "ans":"An event is an action that could be triggered as a result of the user action or system generated event. Examples of user actions triggering an event could be a mouse click, hover, or pressing a key. Examples of system generated events are page load, page scroll, or a form submission."
+        },
+        {
+            "qn":"What is the difference between an HTML element event and React events",
+            "ans":"HTML events are written in lowercase, such as onclick or onmouseover. React event names are written in camelCase, such as onClick or onMouseOver."
+        },
+        {
+            "qn":"What are most common mouse and keyboard events",
+            "ans":"The most common mouse events are click, dblclick, mouseover, mouseout, and mousemove. The most common keyboard events are keydown, keyup, and keypress."
+        },
+        {
+            "qn":"Difference between onInput,onChange and onBlur",
+            "ans":"The onChange event triggers when the value of an element has been changed and the element loses focus. The onInput event triggers when an element gets user input. The onBlur event triggers when an element loses focus."
+        },
+        {
+            "qn":"Where do we put the onSubmit event",
+            "ans":"The onSubmit event is used to submit the form data to the server. It is used with the form element. The onSubmit event is added to the form element like onSubmit={this.handleSubmit}."
         }
     ]
 }
