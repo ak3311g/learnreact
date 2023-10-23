@@ -10,31 +10,43 @@ export default function HeaderComp() {
                 <Link className="header text-white p-3 m-2 rounded" to="/">
                     <FontAwesomeIcon icon={faReact} />
                     <h1 className="title flex-column">
-                        Learn React JS 
+                        Learn React JS
                         <p className="clicktitle">Click to go to homepage</p>
                     </h1>
-                
+
                 </Link>
-                <div className="mx-3">
-                <Link className="header text-white p-3 m-2 rounded" to="/questions">
-                    <h1 className="title flex-column">
-                        Questions
-                        <p className="clicktitle">Click to go to Questions</p>
-                    </h1>
-                </Link>
-                </div>
-                {/* <div className="nav-bar">
+                <div className="nav-bar">
                     <div className="btn-group">
-                        <button type="button" className="dropdowntoggle p-3 m-2" data-bs-toggle="dropdown" aria-expanded="false">
-                            More Items
+                        <button type="button" className="dropdowntoggle header text-white p-3 m-2 rounded" data-bs-toggle="dropdown" aria-expanded="false">
+                            <p className="title m-0 text-center w-100 flex-column">
+                                        More Items
+                            </p>
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
-                            <li><button className="dropdown-item" type="button">More Topics</button></li>
-                            <li><button className="dropdown-item" type="button">Did i Miss ?</button></li>
-                            <li><button className="dropdown-item" type="button">Something else here</button></li>
+                            <li><button className="dropdown-item" type="button">
+                                <Link className="header text-white w-100 m-1 rounded" to="/questions">
+                                    <p className="title text-center w-100 flex-column">
+                                        Questions
+                                    </p>
+                                </Link>
+                            </button></li>
+                            <li>
+                                <button className="dropdown-item" type="button">
+                                    <a className="header text-white w-100 m-1 rounded" href="https://firstlearnreacthooks.netlify.app/" target="_blank" rel="noreferrer"><p className="title text-center w-100 flex-column">
+                                        React Hooks
+                                    </p></a>
+                                </button>
+                            </li>
+                            <li>
+                                <button className="dropdown-item" type="button">
+                                    <a className="header text-white w-100 m-1 rounded" href="mailto:ak3311g@gmail.com" target="_blank" rel="noreferrer"><p className="title text-center w-100 flex-column">
+                                        Did i miss something? Mail me
+                                    </p></a>
+                                </button>
+                            </li>
                         </ul>
                     </div>
-                </div> */}
+                </div>
             </div>
         </>
     )
